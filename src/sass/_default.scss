@@ -1,0 +1,19 @@
+a {
+	color: #23527c;
+	&:hover {
+		text-decoration: underline;
+	}
+}
+body {
+	font-family: Roboto;
+}
+* {
+	margin: 0;
+	padding: 0;
+}
+
+// .container {
+// 	padding: 0 20px;
+//     max-width: 1180px;
+//     margin: 0 auto;
+// }
