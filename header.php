@@ -3,6 +3,7 @@
 
 <head>
 	<meta charset="<?php bloginfo( 'charset' ); ?>">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
 	<!-- <title>
 		<?php //echo wp_get_document_title(); ?>
 	</title> -->
@@ -26,7 +27,13 @@
             </div>
 
             <div class="navigations">
-                <nav class="nav">
+                <input type="checkbox" id="hmt" class="hidden-menu-ticker">
+                <label class="btn-menu" for="hmt">
+                    <span class="first"></span>
+                    <span class="second"></span>
+                    <span class="third"></span>
+                </label>
+                <nav class="nav hidden-menu">
                     <a class="nav-link active" href="#">Active</a>
                     <a class="nav-link" href="#">Link</a>
                     <a class="nav-link" href="#">Link</a>

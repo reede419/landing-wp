@@ -156,11 +156,23 @@ let TxtRotate = function(el, toRotate, period) {
   //next button click function
   $('#next').on('click', function() {
     swap('clockwise');
+    $('#next').hide('fast');
+    $('#prev').hide('fast');
+    setTimeout(() => {
+      $('#next').show('fast');
+      $('#prev').show('fast');
+    }, 100);
   });
 
   //prev button click function
   $('#prev').on('click', function() {
     swap('counter-clockwise');
+    $('#prev').hide('fast');
+    $('#next').hide('fast');
+    setTimeout(() => {
+      $('#prev').show('fast');
+      $('#next').show('fast');
+    }, 100);
   });
   // $('#prev').click(function() {
     // swap('counter-clockwise');

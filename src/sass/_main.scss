@@ -58,6 +58,7 @@
         .try-free-email {
             position: absolute;
             right: -15px;
+            max-width: 560px;
             input {
                 height: 60px;
                 width: 255px;
@@ -67,6 +68,7 @@
                 color: $light-grey;
                 border: 1px solid $light-grey;
                 border-radius: 5px;
+                outline: none;
             }
 
             button {
@@ -627,4 +629,82 @@
             max-width: 530px;
         }
     }
+}
+
+@media (max-width: 500px) {
+    .main-block-try-free {
+        top: 0;
+        min-height: 750px;
+        
+        .hidden-sm-manual {
+            display: none;
+        }
+
+        .inform-block {
+            text-align: center;
+
+            .more-leads {
+                font-size: 40px;
+            }
+
+            p {
+                font-family: source-sans-basic,Source Sans Pro,helvetica,arial,sans-serif;
+                margin-bottom: 10px;
+            }
+
+            .try-free-email {
+                text-align: left;
+                right: 0;
+                .send-email {
+                    margin: 30px 0;
+                    width: 340px;
+                }
+                .try-free-email-btn {
+                    margin-left: 0;
+                }
+            }
+        }
+
+        .sm-image {
+            background-image: url("../images/top_v3_sm.png");
+            display: block;
+            height: 350px;
+            background-repeat: no-repeat;
+            z-index: 100;
+            margin-top: 520px;
+        }
+        .features-sm {
+            position: initial;
+            display: block;
+            margin-left: 10px;
+        }
+    }
+
+    .trusted-us-company {
+        width: 350px;
+        margin: 0 auto;
+        .trusted-company {
+            display: inline-block;
+            columns: 2;
+        }
+    }
+
+    .solutions {
+        h2 {
+            text-align: center;
+            margin: 50px 0;
+        }
+        .needs {
+            .engaging {
+                display: block;
+
+                .engaging-icon {
+                    margin-bottom: 20px;
+                }
+                .engaging-text {
+                    margin-left: 0;
+                }
+            }
+        } 
+    } 
 }

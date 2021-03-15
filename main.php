@@ -2,7 +2,7 @@
 <section>
     <div class="container">
         <div class="row main-block-try-free">
-            <div class="col-6">
+            <div class="col-xs-12 col-sm-12 col-lg-6">
                 <div class="inform-block">
                     <h1 class="more-leads">Больше 
                         <span
@@ -18,7 +18,7 @@
                         <span class="form_error" id="invalid_email">This email is not valid</span>
                     </div>
                 </div>
-                <div class="features">
+                <div class="features hidden-sm-manual">
                     <div class="row-features left-row-features">
                         <p class="features-part"><span class="icons"><i class="far fa-envelope"></i></span> <span class="value-icon">Email-Маркетинг</span></p>
                         <p class="features-part"><span class="icons"><i class="fas fa-cog"></i></span> <span class="value-icon">Автоматизация маркетинга</span></p>
@@ -28,13 +28,25 @@
                         <p class="features-part"><span class="icons"><i class="fas fa-mouse"></i></span> <span class="value-icon">Лендинги</span></p>
                         <p class="features-part"><span class="icons"><i class="fas fa-filter"></i></span> <span class="value-icon">Воронка конверсии</span></p>
                     </div>
-                    <div class="col-6">
-                        
-                    </div>
                 </div>
             </div>
-            <div class="col-6">
+            <div class="col-xs-12 col-sm-12 col-lg-6 hidden-sm-manual">
                 <div class="main-image"></div>
+            </div>
+
+            <div class="col-sm-12 visible-sm-manual">
+                <div class="sm-image"></div>
+                <div class="features features-sm">
+                    <div class="row-features left-row-features">
+                        <p class="features-part"><span class="icons"><i class="far fa-envelope"></i></span> <span class="value-icon">Email-Маркетинг</span></p>
+                        <p class="features-part"><span class="icons"><i class="fas fa-cog"></i></span> <span class="value-icon">Автоматизация маркетинга</span></p>
+                    </div>
+    
+                    <div class="row-features right-row-features">
+                        <p class="features-part"><span class="icons"><i class="fas fa-mouse"></i></span> <span class="value-icon">Лендинги</span></p>
+                        <p class="features-part"><span class="icons"><i class="fas fa-filter"></i></span> <span class="value-icon">Воронка конверсии</span></p>
+                    </div>
+                </div>
             </div>
         </div>
     </div>
@@ -64,7 +76,7 @@
         <div class="row solutions">
             <h2>Маркетинговые решения для <span class="yellowText"> ваших задач </span></h2>
     
-            <div class="needs col-6">
+            <div class="needs col-lg-6 col-xs-12 col-sm-12">
                 <div class="engaging engaging-audience">
                     <div class="engaging-icon">
                         <i class="fas fa-users"></i>
@@ -97,7 +109,7 @@
                     </div>
                 </div>
             </div>
-            <div class="needs col-6">
+            <div class="needs col-lg-6 col-xs-12 col-sm-12">
                 <div class="engaging engaging-audience">
                     <div class="engaging-icon">
                         <i class="fas fa-users"></i>
@@ -315,16 +327,16 @@
 <section class="slider">
     <div class="container">
         <div class="row main-block-slider">
-            <h3><span class="yellowText">Свыше 100 000 </span>компаний растут вместе с нами. Присоединяйтесь</h3>
-            <p>Присоединяйтесь к успешным компаниям, которые вовлекают свои аудитории из любой точки мира.</p>
+            <h3 class="slider-padding"><span class="yellowText">Свыше 100 000 </span>компаний растут вместе с нами. Присоединяйтесь</h3>
+            <p class="slider-padding">Присоединяйтесь к успешным компаниям, которые вовлекают свои аудитории из любой точки мира.</p>
             <div class="slider-block">
                 <ul class="carousel">
-                    <li class="items main-pos" id="1">
+                    <li class="items left-pos" id="1">
                         <div class="slider-image">
                             <img src="<?php echo get_template_directory_uri() . '/' . 'assets/images/inSlider.png' ?>" alt="inSlider" />
                         </div>
                         <div class="slider-content">
-                            <h3>Я всегда на связи с клиентами</h3>
+                            <h3>Я всегда на связи с клиентами 1</h3>
                             <p>
                                 Благодаря GetResponse стало проще взаимодействовать с аудиторией и вовлекать ее. Сервисом очень удобно пользоваться, 
                                 а если что-то не получается, то поддержка всегда поможет.
@@ -333,16 +345,47 @@
                                 Николь Люси
                                 <span>The Feminine Principle</span>
                             </small>
-                            <!-- <p>Николь Люси</p>
-                            <p>The Feminine Principle</p> -->
                         </div>
                     </li>
-                    <li class="items right-pos" id="2">
+                    <li class="items main-pos" id="2">
+                        <div class="slider-image">
+                            <img src="<?php echo get_template_directory_uri() . '/' . 'assets/images/inSlider.png' ?>" alt="inSlider" />
+                        </div>
+                        <div class="slider-content">
+                            <h3>Я всегда на связи с клиентами 2</h3>
+                            <p>
+                                Благодаря GetResponse стало проще взаимодействовать с аудиторией и вовлекать ее. Сервисом очень удобно пользоваться, 
+                                а если что-то не получается, то поддержка всегда поможет.
+                            </p>
+                            <small>
+                                Николь Люси
+                                <span>The Feminine Principle</span>
+                            </small>
+                        </div>
+                    </li>
+                    <li class="items right-pos" id="3">
+                        <div class="slider-image">
+                            <img src="<?php echo get_template_directory_uri() . '/' . 'assets/images/inSlider.png' ?>" alt="inSlider" />
+                        </div>
+                        <div class="slider-content">
+                            <h3>Я всегда на связи с клиентами 3</h3>
+                            <p>
+                                Благодаря GetResponse стало проще взаимодействовать с аудиторией и вовлекать ее. Сервисом очень удобно пользоваться, 
+                                а если что-то не получается, то поддержка всегда поможет.
+                            </p>
+                            <small>
+                                Николь Люси
+                                <span>The Feminine Principle</span>
+                            </small>
+                        </div>
+                    </li>
+                    
+                    <li class="items back-pos" id="4">
                         <div class="slider-image">
                             <img src="<?php echo get_template_directory_uri() . '/' . 'assets/images/inSlider.png' ?>" />
                         </div>
                         <div class="slider-content">
-                            <h3>Я всегда на связи с клиентами</h3>
+                            <h3>Я всегда на связи с клиентами 4</h3>
                             <p>
                                 Благодаря GetResponse стало проще взаимодействовать с аудиторией и вовлекать ее. Сервисом очень удобно пользоваться, 
                                 а если что-то не получается, то поддержка всегда поможет.
@@ -354,17 +397,6 @@
                             <!-- <p>Николь Люси</p>
                             <p>The Feminine Principle</p> -->
                         </div>
-                    </li>
-                    <li class="items" id="3">
-                    <img src="<?php echo get_template_directory_uri() . '/' . 'assets/images/slide1.jpg' ?>" />
-                    </li>
-                    <li class="items back-pos" id="4">
-                    <img src="<?php echo get_template_directory_uri() . '/' . 'assets/images/slide2.jpg' ?>"/>
-                    </li>
-                    <li class="items back-pos" id="5">
-                    <img src="<?php echo get_template_directory_uri() . '/' . 'assets/images/slide3.jpg' ?>" />
-                    </li>
-                    <li class="items left-pos" id="6"><img src="<?php echo get_template_directory_uri() . '/' . 'assets/images/slide1.jpg' ?>"/>
                     </li>
                 </ul>
                 <div class="arrow arrow-left" id="prev"></div>
