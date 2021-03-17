@@ -153,7 +153,7 @@
         <div class="row tools">
             <h2>Инструменты для <span class="yellowText">всех и каждого</span></h2>
     
-            <div class="col-3 people">
+            <div class="col-lg-3 col-xs-12 col-sm-12 people">
                 <div class="people-image">
                     <img src="<?php echo get_template_directory_uri() . '/' . 'assets/images/people1.png' ?>" alt="people">
                 </div>
@@ -171,7 +171,7 @@
                 </div>
     
             </div>
-            <div class="col-3 people">
+            <div class="col-lg-3 col-xs-12 col-sm-12 people">
                 <div class="people-image">
                     <img src="<?php echo get_template_directory_uri() . '/' . 'assets/images/people2.png' ?>" alt="people">
                 </div>
@@ -189,7 +189,7 @@
                 </div>
     
             </div>
-            <div class="col-3 people">
+            <div class="col-lg-3 col-xs-12 col-sm-12 people">
                 <div class="people-image">
                     <img src="<?php echo get_template_directory_uri() . '/' . 'assets/images/people3.png' ?>" alt="people">
                 </div>
@@ -207,7 +207,7 @@
                 </div>
     
             </div>
-            <div class="col-3 people">
+            <div class="col-lg-3 col-xs-12 col-sm-12 people">
                 <div class="people-image">
                     <img src="<?php echo get_template_directory_uri() . '/' . 'assets/images/people4.png' ?>" alt="people">
                 </div>
@@ -235,7 +235,7 @@
         <div class="row">
             <h2>В GetResponse есть <span class="yellowText">все необходимые инструменты</span></h2>
     
-            <div class="col-4 club-tools">
+            <div class="col-lg-4 col-xs-12 col-sm-12 club-tools">
                 <div class="smsClub-tools">
                     <div class="smsClub-tools-icon">
                         <i class="fas fa-users"></i>
@@ -260,7 +260,7 @@
                     </div>
                 </div>
             </div>
-            <div class="col-4 club-tools">
+            <div class="col-lg-4 col-xs-12 col-sm-12 club-tools">
                 <div class="smsClub-tools">
                     <div class="smsClub-tools-icon">
                         <i class="fas fa-users"></i>
@@ -285,7 +285,7 @@
                     </div>
                 </div>
             </div>
-            <div class="col-4 club-tools">
+            <div class="col-lg-4 col-xs-12 col-sm-12 club-tools">
                 <div class="smsClub-tools">
                     <div class="smsClub-tools-icon">
                         <i class="fas fa-users"></i>
@@ -352,7 +352,7 @@
                             <img src="<?php echo get_template_directory_uri() . '/' . 'assets/images/inSlider.png' ?>" alt="inSlider" />
                         </div>
                         <div class="slider-content">
-                            <h3>Я всегда на связи с клиентами 2</h3>
+                            <h3>Я hello 2</h3>
                             <p>
                                 Благодаря GetResponse стало проще взаимодействовать с аудиторией и вовлекать ее. Сервисом очень удобно пользоваться, 
                                 а если что-то не получается, то поддержка всегда поможет.
@@ -416,7 +416,7 @@
     <div class="container">
         <div class="row">
             <h3 class="useful-res">Полезные ресурсы, <span class="yellowText">которые могут пригодиться в начале пути</span></h3>
-            <div class="col-6">
+            <div class="col-lg-6 col-xs-12 col-sm-12">
                 <div class="how-promote">
                     <div class="promote-image">
                         <img src="<?php echo get_template_directory_uri() . '/' . 'assets/images/resource.jpg' ?>" alt="resource">
@@ -431,7 +431,7 @@
                 </div>
             </div>
 
-            <div class="col-3">
+            <div class="col-lg-3 col-xs-12 col-sm-12">
                 <div class="add-followers">
                     <h3>
                         Как набрать первых 50 подписчиков?
@@ -451,7 +451,7 @@
                     </p>
                 </div>
             </div>
-            <div class="col-3">
+            <div class="col-lg-3 col-xs-12 col-sm-12">
                 <div class="marketing-for-new">
                     <h3>
                         Как набрать первых 50 подписчиков?
@@ -481,7 +481,7 @@
 <section class="support">
     <div class="container">
         <div class="row support-block">
-            <div class="col-6">
+            <div class="col-lg-6 col-xs-12 col-sm-12">
                 <h2> <span class="yellowText">Всегда на связи  с вами. </span> Наша команда поддержки готова помогать 24/7.</h3>
                 <p>Свяжитесь с нами в любое время —</p>
                 <ul>
@@ -492,7 +492,7 @@
                 <h3 class="yellowText all-day">24 часа в сутки, 7 дней в неделю</h3>
                 <p class="write-in-chat">Написать в чат</p>
             </div>
-            <div class="col-6">
+            <div class="col-lg-6 col-xs-12 col-sm-12">
                 <div class="chat-image"></div>
             </div>
         </div>
@@ -502,10 +502,10 @@
 <section class="gdpr">
     <div class="container">
         <div class="row gdpr-block">
-            <div class="col-6">
+            <div class="col-lg-6 col-xs-12 col-sm-12">
                 <div class="gdpr-image"></div>
             </div>
-            <div class="col-6">
+            <div class="col-lg-6 col-xs-12 col-sm-12">
                 <h2>Соответствие требованиям GDPR</h3>
                 <p>Обеспечьте прозрачность и соответствие GDPR, добавив поля согласия GetResponse. 
                     Позвольте контактам предоставлять согласие на рассылку сразу при регистрации или подписке. 
@@ -526,7 +526,7 @@
 <section class="develop-business">
     <div class="container">
         <div class="row develop-business-block">
-            <div class="col-12">
+            <div class="col-lg-12 col-xs-12 col-sm-12">
                 <div class="developing-you-business">
                     <div class="lets-start">
                         <h2>Начнем развивать ваш бизнес?</h2>

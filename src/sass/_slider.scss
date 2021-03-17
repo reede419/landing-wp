@@ -147,3 +147,48 @@
         // }
     }
 }
+
+@media (max-width: 500px) {
+    .slider {
+        .main-block-slider {
+            width: 100%;
+            left: 53%;
+            h3, p {
+                width: 90%;
+                text-align: center;
+                margin: 0 auto;
+            }
+
+            .slider-block {
+                .items {
+                    display: block;
+                    text-align: center;
+                }
+                .right-pos, .left-pos, .back-pos {
+                    display: none;
+                }
+
+                li {
+                    width: 85%;
+                    height: 440px;
+
+                    .slider-content {
+                        width: auto;
+                        small {
+                            padding-left: 20px;
+                        }
+                    }
+                }
+
+                .arrow-right {
+                    right: 7px;
+                    bottom: 215px;
+                }
+                .arrow-left {
+                    left: 15px;
+                    bottom: 215px;
+                }
+            }
+        }
+    }
+}

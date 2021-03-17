@@ -302,7 +302,7 @@
             display: flex;
 
             input {
-                padding: 10px 50px 10px 14px;
+                padding: 10px 55px 10px 14px;
                 border-radius: 5px;
                 border: none;
                 margin: 0 25px;
@@ -707,4 +707,107 @@
             }
         } 
     } 
+    
+    .tools {
+        h2 {
+            width: 80%;
+            text-align: center;
+            margin: 10px auto 50px auto;
+            font-weight: bold;
+        }
+
+        .people {
+            // padding: 0;
+            margin: 10px 0;
+        }
+    }
+
+    .black-bg {
+        h2 {
+            width: 80%;
+            text-align: center;
+            margin-left: auto;
+            margin-right: auto;
+        }
+
+        .developing-you-business {
+            width: 90%;
+            .lets-start {
+                display: block;
+                padding: 50px 15px;
+                text-align: center;
+
+                h2 {
+                    width: 80%;
+                    margin: 0 auto;
+                    text-align: center;
+                }
+
+                form {
+                    display: block;
+
+                    input {
+                        margin: 30px 0 50px 0;
+                    }
+
+                    button {
+                        font-size: 16px;
+                    }
+                }
+            }
+        }
+    }
+
+    .useful-resources {
+        .how-promote {
+            display: block;
+        }
+    }
+
+    .support {
+        .support-block {
+            .chat-image {
+                zoom: 0.5;
+                position: relative;
+                left: 0;
+                width: auto;
+            }
+        }
+    }
+
+    .gdpr {
+        margin-top: 50px;
+    }
+
+    .develop-business {
+        .develop-business-block {
+            .developing-you-business {
+                width: 90%;
+                bottom: 65px;
+                .lets-start {
+                    display: block;
+                    padding: 50px 15px;
+                    text-align: center;
+    
+                    h2 {
+                        width: 80%;
+                        margin: 0 auto;
+                        text-align: center;
+                    }
+    
+                    form {
+                        display: block;
+    
+                        input {
+                            margin: 30px 0 50px 0;
+                        }
+    
+                        button {
+                            font-size: 16px;
+                        }
+                    }
+                }
+            }
+        }
+    }
 }
